@@ -19,7 +19,9 @@
     </nav> -->
     <div class="dark:bg-gray-900 w-full">
       <nav class="bg-gray-100 dark:bg-gray-900 py-5 w-full flex">
-        <div class="mx-auto flex items-center w-full md:w-9/12">
+        <div
+          class="mx-auto flex md:flex-row md:items-center w-full md:w-9/12 mobile:flex-col justify-center items-center"
+        >
           <div class="flex text-white w-full md:w-1/5 justify-center">
             <img src="./src//img/taillogo.png" class="h-14 w-14" />
 
@@ -30,7 +32,9 @@
 
           <!-- Nav Links -->
 
-          <div class="flex w-full md:w-4/5 items-center justify-end">
+          <div
+            class="flex w-full md:w-4/5 items-center md:justify-end mobile:justify-center"
+          >
             <ul class="flex text-white justify-center items-center">
               <li class="p-2 mx-5">
                 <a href="#" class="text-red-400 font-semibold">FAQ</a>
@@ -106,7 +110,9 @@
         </div>
       </div>
       <div class="w-full mx-auto">
-        <div class="flex items-center justify-center md:w-9/12 mx-auto">
+        <div
+          class="flex md:flex-row mobile:flex-col mobile:items-start items-center justify-center md:w-9/12 mx-auto"
+        >
           <div class="group1 p-5">
             <div>
               <img src="./src/img/samrt.png" alt="" class="w-30" />
@@ -119,16 +125,20 @@
             </p>
           </div>
           <div class="group1 p-5">
-            <img src="./src/img/realtime.png" alt="" class="w-30" />
-            <h1 class="text-white font-bold text-2xl">Real-time</h1>
+            <div><img src="./src/img/realtime.png" alt="" class="w-30" /></div>
+            <div><h1 class="text-white font-bold text-2xl">Real-time</h1></div>
+
             <p class="text-white">
               Perform matches the music to the intensity of your workout to dove
               results.
             </p>
           </div>
-          <div class="group1 p-5">
-            <img src="./src/img/playlist.png" alt="" class="w-30" />
-            <h1 class="text-white font-bold text-2xl">playlist</h1>
+          <div class="p-5">
+            <div>
+              <img src="./src/img/playlist.png" alt="" class="w-30" />
+            </div>
+            <div><h1 class="text-white font-bold text-2xl">playlist</h1></div>
+
             <p class="text-white">
               Perform builds your workout playlists from the music that you
               lave.
@@ -139,7 +149,7 @@
     </div>
 
     <div class="w-full bg-blue-400">
-      <div class="w-full md:w-9/12 mx-auto flex">
+      <div class="w-full md:w-9/12 mx-auto flex md:flex-row mobile:flex-col">
         <div class="w-full md:w-1/2 flex items-center justify-center">
           <div
             class="md:w-3/5 flex mx-auto items-center justify-center flex-col p-2"
@@ -159,7 +169,7 @@
       </div>
     </div>
     <div class="w-full bg-gray-900">
-      <div class="w-full md:w-9/12 mx-auto flex">
+      <div class="w-full md:w-9/12 mx-auto flex md:flex-row mobile:flex-col">
         <div class="w-full md:w-1/2 flex items-center p-2">
           <div class="w-full md:w-4/5 flex flex-col items-center">
             <div class="w-full md:w-4/5 text-white">
@@ -215,12 +225,14 @@
         Amazon Music, Pandara and Tidal support coming soon...
       </p>
       <div class="w-full p-1">
-        <div class="flex md:-rotate-2 overflow-hidden md:w-max-10/12">
-          <div class="relative">
+        <div
+          class="flex md:it mobile:items-center md:-rotate-2 overflow-hidden md:w-max-10/12 md:flex-row sm:flex-col mobile:flex-col"
+        >
+          <div class="relative sm:mb-4 mobile:mb-4">
             <img class="rounded-lg h-48 w-56" src="./src/img/img3.jpg" alt="" />
             <a
               href="#"
-              class="absolute bottom-2 left-28 bg-red-600 rounded-3xl py-1 px-1"
+              class="absolute bottom-2 md:left-28 sm:left-40 mobile:left-40 bg-red-600 rounded-3xl py-1 px-1"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -235,15 +247,17 @@
                 ></path>
               </svg>
             </a>
-            <p class="absolute bottom-2 text-white px-20 right-5">
+            <p
+              class="absolute bottom-2 text-white md:px-20 md:right-5 mobile:right-36 mobile:ml-3"
+            >
               RockStar Dobaby
             </p>
           </div>
-          <div class="relative ml-4">
-            <img class="rounded-lg h-48 w-56" src="./src/img/img2.jpg" alt="" />
+          <div class="relative sm:mb-4 mobile:mb-4 ml-4 bg-orange-700">
+            <img class="rounded-lg h-48 w-60" src="./src/img/img2.jpg" alt="" />
             <a
               href="#"
-              class="absolute bottom-2 left-28 bg-red-600 rounded-3xl py-1 px-1"
+              class="absolute bottom-2 md:left-28 sm:left-40 mobile:left-40 bg-red-600 rounded-3xl py-1 px-1"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -258,11 +272,13 @@
                 ></path>
               </svg>
             </a>
-            <p class="absolute bottom-2 text-white px-20 right-5">
+            <p
+              class="absolute bottom-2 text-white md:px-20 md:right-5 mobile:right-36 mobile:ml-3"
+            >
               RockStar Dobaby
             </p>
           </div>
-          <div class="relative ml-4">
+          <div class="sm:mb-4 mobile:mb-4 relative ml-4">
             <img
               class="rounded-lg h-48 w-60 max-w-full"
               src="./src/img/img1.jpg"
@@ -270,7 +286,7 @@
             />
             <a
               href="#"
-              class="absolute bottom-2 left-28 bg-red-600 rounded-3xl py-1 px-1"
+              class="absolute bottom-2 md:left-28 sm:left-40 mobile:left-40 bg-red-600 rounded-3xl py-1 px-1"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -285,11 +301,13 @@
                 ></path>
               </svg>
             </a>
-            <p class="absolute bottom-2 text-white px-20 right-5">
+            <p
+              class="absolute bottom-2 text-white md:px-20 md:right-5 mobile:right-36 mobile:ml-3"
+            >
               RockStar Dobaby
             </p>
           </div>
-          <div class="relative ml-4">
+          <div class="relative ml-4 sm:mb-4 mobile:mb-4">
             <img
               class="rounded-lg h-48 w-60 max-w-full"
               src="./src/img/img4.jpg"
@@ -297,7 +315,7 @@
             />
             <a
               href="#"
-              class="absolute bottom-2 left-28 bg-red-600 rounded-3xl py-1 px-1"
+              class="absolute bottom-2 md:left-28 sm:left-40 mobile:left-40 bg-red-600 rounded-3xl py-1 px-1"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -312,11 +330,13 @@
                 ></path>
               </svg>
             </a>
-            <p class="absolute bottom-2 text-white px-20 right-5">
+            <p
+              class="absolute bottom-2 text-white md:px-20 md:right-5 mobile:right-36 mobile:ml-3"
+            >
               RockStar Dobaby
             </p>
           </div>
-          <div class="relative ml-4">
+          <div class="relative ml-4 sm:mb-4 mobile:mb-4">
             <img
               class="rounded-lg h-48 w-60 max-w-full"
               src="./src/img/img1.jpg"
@@ -324,7 +344,7 @@
             />
             <a
               href="#"
-              class="absolute bottom-2 left-28 bg-red-600 rounded-3xl py-1 px-1"
+              class="absolute bottom-2 md:left-28 sm:left-40 mobile:left-40 bg-red-600 rounded-3xl py-1 px-1"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -339,11 +359,13 @@
                 ></path>
               </svg>
             </a>
-            <p class="absolute bottom-2 text-white px-20 right-5">
+            <p
+              class="absolute bottom-2 text-white md:px-20 md:right-5 mobile:right-36 mobile:ml-3"
+            >
               RockStar Dobaby
             </p>
           </div>
-          <div class="relative ml-4">
+          <div class="relative ml-4 sm:mb-4 mobile:mb-4">
             <img
               class="rounded-lg h-48 w-60 max-w-full"
               src="./src/img/img2.jpg"
@@ -351,7 +373,7 @@
             />
             <a
               href="#"
-              class="absolute bottom-2 left-28 bg-red-600 rounded-3xl py-1 px-1"
+              class="absolute bottom-2 md:left-28 sm:left-40 mobile:left-40 bg-red-600 rounded-3xl py-1 px-1"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -366,11 +388,13 @@
                 ></path>
               </svg>
             </a>
-            <p class="absolute bottom-2 text-white px-20 right-5">
+            <p
+              class="absolute bottom-2 text-white md:px-20 md:right-5 mobile:right-36 mobile:ml-3"
+            >
               RockStar Dobaby
             </p>
           </div>
-          <div class="relative ml-4">
+          <div class="relative ml-4 sm:mb-4 mobile:mb-4">
             <img
               class="rounded-lg h-48 w-60 max-w-full"
               src="./src/img/img3.jpg"
@@ -378,7 +402,7 @@
             />
             <a
               href="#"
-              class="absolute bottom-2 left-28 bg-red-600 rounded-3xl py-1 px-1"
+              class="absolute bottom-2 md:left-28 sm:left-40 mobile:left-40 bg-red-600 rounded-3xl py-1 px-1"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -393,7 +417,9 @@
                 ></path>
               </svg>
             </a>
-            <p class="absolute bottom-2 text-white px-20 right-5">
+            <p
+              class="absolute bottom-2 text-white md:px-20 md:right-5 mobile:right-36 mobile:ml-3"
+            >
               RockStar Dobaby
             </p>
           </div>
@@ -419,7 +445,9 @@
                 ></path>
               </svg>
             </a>
-            <p class="absolute bottom-2 text-white px-20 right-5">
+            <p
+              class="absolute bottom-2 text-white md:px-20 md:right-5 mobile:right-36 mobile:ml-3"
+            >
               RockStar Dobaby
             </p>
           </div>
@@ -442,7 +470,9 @@
                 ></path>
               </svg>
             </a>
-            <p class="absolute bottom-2 text-white px-20 right-5">
+            <p
+              class="absolute bottom-2 text-white md:px-20 md:right-5 mobile:right-36 mobile:ml-3"
+            >
               RockStar Dobaby
             </p>
           </div>
